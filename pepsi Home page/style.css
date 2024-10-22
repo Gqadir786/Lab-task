@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(7, 84, 198);
+    font-family:Arial, Helvetica, sans-serif
+} 
+
+.logo {
+    margin: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 5rem;
+}
+ 
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    /*background-color: gray;*/
+    text-align: center;
+}
+
+.menu_links {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu_links li {
+    margin: 0.5rem;
+    padding: 8px;
+}
+
+.menu_links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu_links li a:hover {
+    color: rgb(71, 59, 59);
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+    color: black;
+}
+
+.icons_list {
+    list-style-type: none;
+    position: relative;
+    top: 30%;
+}
+
+.icons_list li {
+    margin: 1rem;
+    text-align: center;
+    padding: 0.3rem;
+}
